@@ -5,12 +5,13 @@
 
 // Input: matrix = 
 // [[1,1,1],
-// [1,0,1],
-// [1,1,1]]
+//  [1,0,1],
+//  [1,1,1]]
+
 // Output:
-//        [[1,0,1]
-        // [0,0,0],
-        // [1,0,1]]
+// [[1,0,1]
+//  [0,0,0]
+//  [1,0,1]]
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -49,6 +50,7 @@ void setZeroes(vector<vector<int>>& matrix) {
             }
         }
 
+        // updating the row
         if(col1 == 0){
         matrix[i][0] = 0;
     }
