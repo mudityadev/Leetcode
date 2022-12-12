@@ -24,7 +24,7 @@ Output: 23
 
 Follow up: If you have figured out the O(n) solution, try coding another solution using the divide and conquer approach, which is more subtle.
 
-sa
+
 ## Solution
 
 1. make 2 var, current and maxSum
