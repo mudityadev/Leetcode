@@ -21,3 +21,15 @@ Constraints:
 n == nums.length
 1 <= n <= 300
 nums[i] is either 0, 1, or 2.
+
+
+## Solution 
+1. can use counting sort
+2. dutch flag algorithm
+3. use 3 variable, low, mid and high
+4. low = 0, mid = 0 and high = size
+5. run a while loop (mid <= high)
+6. 0 -> low
+7. 1 -> mid
+8. 2 -> high
+9. swap the elements according to the number

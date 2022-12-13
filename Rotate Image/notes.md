@@ -21,6 +21,20 @@ n == matrix.length == matrix[i].length
 
 
 ## Solution
+1. Transpose the row -> col
+    // transpose
+    for (int i = 0; i < n; i++)
+    {
+        for (int k = 0; k < i; k++)
+            swap(image[i][k], image[k][i]);
+    }
 
-1. transpose the row -> col
-2. reverse the each row
+
+2. Reverse the each row
+    // reverse the row
+    for (int i = 0; i < n; i++)
+    {
+        reverse(image[i].begin(), image[i].end());
+    }
+
+    

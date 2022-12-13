@@ -14,8 +14,6 @@ using namespace std;
         buy = min(buy, prices[day]);
         profit = max(profit, prices[day] - buy);   
     }
-    
-
     return profit;
 }
 
